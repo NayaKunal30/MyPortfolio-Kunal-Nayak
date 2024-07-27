@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -106,17 +106,6 @@ function NavBar() {
                 style={{ color: "#48D1CC" }}
               >
                 <CgFileDocument style={{ marginBottom: "2px", color: "#48D1CC" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="add link to blogs"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "#48D1CC" }}
-              >
-                <ImBlog style={{ marginBottom: "2px", color: "#48D1CC" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 

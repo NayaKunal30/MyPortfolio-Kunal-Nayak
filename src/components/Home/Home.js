@@ -13,15 +13,15 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 15, marginBottom: 0 }} className="heading">
                 Hello Everyone!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
+              <h1 className="heading-name" style={{ marginTop: 0 }}>
+                I'm
                 <strong style={{ color: "#48D1CC" }} className="main-name"> Kunal Nayak</strong>
               </h1>
 

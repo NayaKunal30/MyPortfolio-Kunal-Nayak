@@ -746,3 +746,11 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+@media (min-width: 768px) {
+  .home-about-contact {
+    text-align: center;
+  }
+  .contact-card {
+    margin: 40px auto;
+  }
+}

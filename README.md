@@ -23,8 +23,6 @@
     <a href="https://github.com/NayaKunal30/MyPortfolio-Kunal-Nayak/issues">Request Feature</a>
 </h3>
 
-## TL;DR
-
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [NayaKunal30](https://my-portfolio-kunal-nayak.vercel.app/). Thanks!
 
 ## Built With

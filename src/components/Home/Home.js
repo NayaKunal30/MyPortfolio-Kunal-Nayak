@@ -38,7 +38,7 @@ function Home() {
                 style={{
                   maxWidth: "100%", 
                   height: "auto",
-                  marginLeft: "-80px",
+                  marginLeft: "-60px",
                   display: "block", 
                   margin: "0 auto", 
                   marginTop: "-60px",

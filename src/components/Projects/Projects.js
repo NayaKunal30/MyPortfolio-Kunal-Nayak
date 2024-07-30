@@ -7,6 +7,7 @@ import QuickBank from "../../Assets/Projects/QuickBank.png";
 import Medpulseai from "../../Assets/Projects/medpulseai.png";
 import CyberBlock from "../../Assets/Projects/CyberBlock.png";
 import PredictMed from "../../Assets/Projects/PredictMed.png";
+import CropMate from "../../Assets/Projects/CropMate.png";
 
 function Projects() {
   return (
@@ -27,21 +28,22 @@ function Projects() {
               title="MedPulseAI"
               description="MedPulseAI is an innovative health-tech platform harnessing the power of machine learning to empower individuals to take control of their well-being."
               ghLink="https://github.com/NayaKunal30/MedPulseAI---ML"
-              demoLink="https://medpulseai-ml.onrender.com/"
+              demoLink="https://medpulseai-2lyq.onrender.com/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={PredictMed}
+              imgPath={CropMate}
               isBlog={false}
-              title="PredictMed"
-              description="The idea is to develop a website that offers predictive health analytics for conditions like diabetes, heart disease, and brain cancer, while also providing nearby hospital and clinic information for emergency situations."
-              ghLink="https://github.com/NayaKunal30/PredictMED"
-              demoLink="https://predictmed-ytj7.onrender.com/"
+              title="CropMate"
+              description="Crop Mate is designed to assist farmers and gardeners in determining the optimal amount of seeds required for their crops. By analyzing the area of the land and the seed density, users can make informed decisions to maximize their yield while minimizing waste."
+              ghLink="https://github.com/NayaKunal30/CropMate"
+              demoLink="https://cropmate-7ovw.onrender.com/"
+      
             />
           </Col>
 
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={QuickBank}
@@ -75,6 +77,17 @@ function Projects() {
       
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PredictMed}
+              isBlog={false}
+              title="PredictMed"
+              description="The idea is to develop a website that offers predictive health analytics for conditions like diabetes, heart disease, and brain cancer, while also providing nearby hospital and clinic information for emergency situations."
+              ghLink="https://github.com/NayaKunal30/PredictMED"
+              demoLink="https://predictmed-ytj7.onrender.com/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
